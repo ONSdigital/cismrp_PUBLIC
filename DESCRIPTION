@@ -28,7 +28,7 @@ Imports:
     tryCatchLog,
     yaml
 Remotes:
-    github::ONSDigital/gcptools_PUBLIC
+    github::ONSdigital/gcptools
 Suggests:
     boot,
     futile.logger,

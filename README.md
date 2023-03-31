@@ -59,6 +59,17 @@ cismrp is the package that contains the functions to run a reproducible analytic
  9. Check your outputs, if the run has completed sucessfully `push` your commits.
  10. Raise a pull request to `config_history` and merge then delete your branch.
  11. If you are no longer working in Polestar close your notebook
+  
+## Synthetic Data
+
+Because not all users will have access to the internal systems, we have created dummy and synthetic data within the cismrp package [(read more about synthetic and dumy data here)](https://syntheticus.ai/guide-everything-you-need-to-know-about-synthetic-data#:~:text=Synthetic%20and%20dummy%20data%20are,typically%20create%20dummy%20data%20manually). This data can be called from the package by first installing the cismrp package into your environment, and then calling `synthetic_` or `dummy_` prefix infront of the name of the data object, e.g. `dummy_config` for the dummy version of main config, or `synthetic_prevalence_time_series` for the synthetic version of the final output. This data has been predominantly used for unit testing within the package, but it could also be useful for anyone looking to visualise what the data looks like at each of the processing stages. 
+<br> **Disclaimer: Synthetic and dummy data is not real data, so should only be used for testing purposes.**
+
+## Public Repositories
+To improve transparency of how we produce our official statistics and to support future pandemic preparedness, we have cloned our active repositories and made them available to the public. We have removed the commit history for security purposes. 
+- [cismrp_PUBLIC - the package](https://github.com/ONSdigital/cismrp_PUBLIC)
+- [CIS_MRP_PUBLIC - the pipeline](https://github.com/ONSdigital/CIS_MRP_PUBLIC)
+- [gcptools_PUBLIC - an additional support package](https://github.com/ONSdigital/gcptools_PUBLIC)
 
 ## Any extra functionality
 
