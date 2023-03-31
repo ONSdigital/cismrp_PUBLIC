@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^.*ipynb_checkpoints$
+.github
+\\*.ipynb$
+\\*.ipynb_checkpoints$
+\\*.Md
+CODEOWNERS
+^\.github$
+^data-raw$

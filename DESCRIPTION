@@ -1,0 +1,45 @@
+Package: cismrp
+Type: Package
+Title: MRP pipeline for the Covid Infection Survey 
+Version: 1.1.28
+Authors@R: 
+     c(person(given = "Daniel", family = "Shiloh", email = "daniel.shiloh@ons.gov.uk", role = c("aut","cre")),
+     person(given = "Colin", family = "Daglish", email = "colin.daglish@ons.gov.uk", role = c("aut")),
+     person(given = "Christina", family = "Gregson", email = "christina.gregson@ons.gov.uk", role = c("ctb")))
+License: file LICENSE
+Imports:
+    assertive.types,
+    assertthat,
+    dplyr,
+    gcptools,
+    ggplot2,
+    googleCloudStorageR,
+    lubridate,
+    magrittr,
+    purrr,
+    rlang,
+    rmarkdown,
+    rstan,
+    rstanarm,
+    scales,
+    stringr,
+    tidyr,
+    tidyselect,
+    tryCatchLog,
+    yaml
+Remotes:
+    github::ONSDigital/gcptools
+Suggests:
+    boot,
+    futile.logger,
+    kableExtra,
+    testthat (>= 3.0.0),
+    tibble,
+    synthpop
+Description: functionality used by the pipeline for the MRP analysis.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+Config/testthat/edition: 3
