@@ -5,7 +5,8 @@ Version: 1.1.28
 Authors@R: 
      c(person(given = "Daniel", family = "Shiloh", email = "daniel.shiloh@ons.gov.uk", role = c("aut","cre")),
      person(given = "Colin", family = "Daglish", email = "colin.daglish@ons.gov.uk", role = c("aut")),
-     person(given = "Christina", family = "Gregson", email = "christina.gregson@ons.gov.uk", role = c("ctb")))
+     person(given = "Christina", family = "Gregson", email = "christina.gregson@ons.gov.uk", role = c("ctb")),
+     person(given = "James", family = "Copland", email = "james.copland@ons.gov.uk", role = c("ctb")))
 License: file LICENSE
 Imports:
     assertive.types,
