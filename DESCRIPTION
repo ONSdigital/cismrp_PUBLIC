@@ -11,7 +11,7 @@ Imports:
     assertive.types,
     assertthat,
     dplyr,
-    gcptools_PUBLIC,
+    gcptools,
     ggplot2,
     googleCloudStorageR,
     lubridate,
