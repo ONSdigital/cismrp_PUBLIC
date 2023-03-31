@@ -1,6 +1,6 @@
 # cismrp
 [![R](https://github.com/ONSdigital/cismrp_PUBLIC/actions/workflows/r.yaml/badge.svg?branch=main)](https://github.com/ONSdigital/cismrp_PUBLIC/actions/workflows/r.yaml)
-[![codecov](https://codecov.io/gh/ONSdigital/cismrp/branch/main/graph/badge.svg?token=N70MPthEj1)](https://codecov.io/gh/ONSdigital/cismrp)
+[![codecov](https://codecov.io/gh/ONSdigital/cismrp_PUBLIC/branch/main/graph/badge.svg?token=grjGrslGVD)](https://codecov.io/gh/ONSdigital/cismrp_PUBLIC)
 ## Description
 cismrp is the package that contains the functions to run a reproducible analytical pipeline (RAP) for generating headline covid positivity estimates using a multi-level regression model with poststratification. The pipeline has been set up to run on the Google Cloud Platform (GCP). 
 
